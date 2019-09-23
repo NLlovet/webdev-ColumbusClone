@@ -1,1 +1,40 @@
 /* CSS code  */
+
+#navbar ul
+{
+    list-style-type: none;
+    display: block;
+    background-color: #10243B;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+}
+
+#navbar li
+{
+    float: left;
+    background-color: inherit;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    
+}
+
+#navbar 
+{
+    background-color: #10243B;
+    width: auto;
+}
+
+#bluething
+{
+    background-color: #0088cc
+}
+
+.right
+{
+    float: right;
+}
