@@ -1,4 +1,9 @@
 /* CSS code  */
+body
+{
+    margin: 0px auto;
+}
+
 
 #navbar ul
 {
@@ -10,7 +15,7 @@
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-
+    
 }
 
 #navbar li
@@ -20,20 +25,45 @@
     color: white;
     margin: 5px;
     padding: 10px;
+    text-transform: uppercase;
+    
     
 }
 
 #navbar 
 {
     background-color: #10243B;
-    width: auto;
+    width: 100vw;
+    margin-top: 0px;
+    border-top: 40px;
+
 }
 
-#bluething
+#mycchs
+{    
+    background-color: #0088cc;
+}
+
+#hero
 {
-    background-color: #0088cc
+    background-image: url(images/graduation.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
 }
 
+
+#heading 
+{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: white;
+    font-size:4.5em;
+    font-weight: bold;
+    position: absolute;
+    display: block;
+
+}
 .right
 {
     float: right;
