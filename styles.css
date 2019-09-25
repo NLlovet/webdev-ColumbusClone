@@ -4,17 +4,25 @@ body
     margin: 0px auto;
 }
 
+#navbar 
+{
+    background-color: #10243B;
+    width: 100vw;
+    margin-top: 0px;
+    border-top: 20px;
+
+}
 
 #navbar ul
 {
     list-style-type: none;
-    display: block;
+    display: inline-block;
     background-color: #10243B;
-    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    margin: 0px;
-    padding: 0px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
     overflow: hidden;
+    
     
 }
 
@@ -26,24 +34,28 @@ body
     margin: 5px;
     padding: 10px;
     text-transform: uppercase;
-    
-    
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
-#navbar 
+#navbar img 
 {
-    background-color: #10243B;
-    width: 100vw;
-    margin-top: 0px;
-    border-top: 40px;
-
+    /* vertical-align: middle; */
 }
+
 
 #mycchs
 {    
     background-color: #0088cc;
+    display: inline-block;
+    width: 200px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding-bottom: 0;
 }
 
+
+/* Hero start*/
 #hero
 {
     background-image: url(images/graduation.jpg);
@@ -53,16 +65,39 @@ body
     width: 100vw;
 }
 
+#hero img
+{
+    position: relative;
+    top: 250px;
+    left: 150px;
+
+}
 
 #heading 
 {
     font-family: 'PT Sans Narrow', sans-serif;
-    color: white;
-    font-size:4.5em;
+    color: inherit;
+    font-size:4.5;
     font-weight: bold;
-    position: absolute;
+    position: relative;
     display: block;
+    top: 120px;
+    left: 350px;
+    text-shadow: inherit;
+}
 
+#shadow
+{
+    background-color: rgba(0,0,0,0);
+    background-image: linear-gradient(to bottom, 
+    rgba(51,51,51,0.8) 0%,rgba(51,51,51,0) 56%,
+    rgba(51,51,51,0) 100%);
+    color: #ffffff;
+    padding-top: 95px;
+    min-height: 800px;
+    text-shadow: 0px 2px 3px #333333;
+    overflow: hidden;
+    margin-top: 0 !important;
 }
 .right
 {
