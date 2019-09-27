@@ -1,7 +1,14 @@
 /* CSS code  */
+
+* 
+{
+margin-top: 0;
+}
+
 body
 {
     margin: 0px auto;
+    
 }
 
 #navbar 
@@ -54,6 +61,10 @@ body
     padding-bottom: 0;
 }
 
+.right
+{
+    float: right;
+}
 
 /* Hero start*/
 #hero
@@ -99,7 +110,48 @@ body
     overflow: hidden;
     margin-top: 0 !important;
 }
-.right
+
+/* Start Explore CCHS */
+
+#explore
 {
-    float: right;
+    width: 100vw;
+    height: 300px;
 }
+
+#browse
+{
+    text-align: center;
+    background-color: #10243B;
+    color: white;
+    text
+}
+
+#hurricane
+{
+    background-image: url('images/')
+}
+
+#guide
+{
+
+}
+
+#ccnn
+{
+
+}
+
+#media
+{
+
+}
+
+.box
+{
+    width: 24%;
+    height: 300px;
+    background-color: black;
+    display: inline-block;
+}
+
