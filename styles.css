@@ -11,6 +11,11 @@ body
     
 }
 
+h1
+{
+    font-weight: none;
+}
+
 #navbar 
 {
     background-color: #10243B;
@@ -116,7 +121,7 @@ body
 #explore
 {
     width: 100vw;
-    height: 300px;
+    height: 400px;
 }
 
 #browse
@@ -124,27 +129,73 @@ body
     text-align: center;
     background-color: #10243B;
     color: white;
-    text
+    
 }
 
 #hurricane
 {
-    background-image: url('images/')
+
+    background-image: url(images/patriots\ plaza.jpg);
+    background-size: cover;
+    background-position: center;
+    
 }
 
 #guide
 {
-
+    background-image: url(images/college.png);
+    background-size: cover;
+    background-position: center;
 }
 
 #ccnn
 {
-
+    background-image: url(images/ccnn.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 #media
 {
+    background-image: url(images/ccnn\ live.png);
+    background-size: cover;
+    background-position: center;
+}
 
+#hurtext
+{
+    left: 2%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    background-color: #10243B;
+}
+
+#guidetext
+{
+    left: 32%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    background-color: #10243B;
+}
+
+#ccnntext
+{
+    left: 52%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    background-color: #10243B;
+}   
+
+#mediatext
+{
+    left: 75%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    background-color: #10243B;
 }
 
 .box
@@ -153,5 +204,14 @@ body
     height: 300px;
     background-color: black;
     display: inline-block;
+}
+
+.textbox
+{
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    position: absolute;
+    top: 130%;
 }
 
