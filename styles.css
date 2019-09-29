@@ -11,10 +11,16 @@ body
     
 }
 
-h1
+h1-h6
 {
     font-weight: none;
 }
+
+h2
+{
+    color: red;
+}
+/* Nav bar start */
 
 #navbar 
 {
@@ -49,11 +55,6 @@ h1
     font-family: 'Open Sans', sans-serif;
     margin-top: 20px;
     margin-bottom: 0px;
-}
-
-#navbar img 
-{
-    /* vertical-align: middle; */
 }
 
 
@@ -214,4 +215,56 @@ h1
     position: absolute;
     top: 130%;
 }
+
+/* End of Explore */
+
+/* Start of carousel */
+
+#carousel
+{
+    background-color: white;
+    height: 500px;
+    text-align: center;
+    width: 100vw;
+    display: inline-block;
+}
+
+#scholar
+{
+    background-image: url(images/carosel\ money.jpg);
+}
+
+#college
+{
+    background-image: url(images/carosel\ graduation.jpg);
+}
+
+#levels
+{
+    background-image: url(images/book.jpg);
+}
+
+#teacher
+{
+    background-image: url(images/carosel\ teaching.jpg);
+    
+}
+
+#text
+{
+    position: relative;
+    top: 300px;
+}
+
+.textbox2
+{
+    width: 24%;
+    height: 300px;
+    background-color: rgb(170, 139, 139);
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+}
+
 
