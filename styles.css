@@ -234,7 +234,7 @@ h2
     background-image: url(images/carosel\ money.jpg);
 }
 
-#college
+#colleges
 {
     background-image: url(images/carosel\ graduation.jpg);
 }
@@ -256,6 +256,19 @@ h2
     top: 300px;
 }
 
+#ap
+{
+    position: relative;
+    margin-top: 200px;
+    background-color: #10243B;
+    padding: 15px 20px 30px 20px;
+    text-align: center;
+    background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png);
+    display: block;
+    color: white;
+}
+
+
 .textbox2
 {
     width: 24%;
@@ -268,3 +281,22 @@ h2
 }
 
 
+
+/* End of carousel */
+
+/* Start of college */
+
+#college
+{
+    margin-top: 275px;
+    text-align: center;
+    border-top: 1px solid #dfd2b0;
+    border-bottom: 1px solid #dfd2b0;
+    background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png);
+
+}
+
+#college img
+{
+    padding: 50px;
+}
