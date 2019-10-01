@@ -11,9 +11,9 @@ body
     
 }
 
-h1-h6
+h1
 {
-    font-weight: none;
+
 }
 
 h2
@@ -28,6 +28,7 @@ h2
     width: 100vw;
     margin-top: 0px;
     border-top: 20px;
+    background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png);
 
 }
 
@@ -35,13 +36,10 @@ h2
 {
     list-style-type: none;
     display: inline-block;
-    background-color: #10243B;
     font-size: 16px;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     overflow: hidden;
-    
-    
 }
 
 #navbar li
@@ -123,6 +121,7 @@ h2
 {
     width: 100vw;
     height: 400px;
+    background-image: url('//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png');
 }
 
 #browse
@@ -139,7 +138,6 @@ h2
     background-image: url(images/patriots\ plaza.jpg);
     background-size: cover;
     background-position: center;
-    
 }
 
 #guide
@@ -292,11 +290,33 @@ h2
     text-align: center;
     border-top: 1px solid #dfd2b0;
     border-bottom: 1px solid #dfd2b0;
-    background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png);
+    background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg3.png);
 
 }
 
 #college img
 {
     padding: 50px;
+}
+
+/* End of college */
+
+/* Start of Footer */
+
+#footer
+{
+    background-color: #10243B;
+    height: 100px;
+    
+}
+
+#footer ul
+{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    overflow: hidden;
+    color: white;
 }
