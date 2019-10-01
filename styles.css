@@ -11,15 +11,6 @@ body
     
 }
 
-h1
-{
-
-}
-
-h2
-{
-    color: red;
-}
 /* Nav bar start */
 
 #navbar 
@@ -176,7 +167,7 @@ h2
     border-style: solid;
     border-width: 5px;
     border-color: white;
-    background-color: #10243B;
+    background-color: #e81c41;
 }
 
 #ccnntext
@@ -194,7 +185,7 @@ h2
     border-style: solid;
     border-width: 5px;
     border-color: white;
-    background-color: #10243B;
+    background-color: #fff891;
 }
 
 .box
@@ -252,6 +243,7 @@ h2
 {
     position: relative;
     top: 300px;
+    
 }
 
 #ap
@@ -264,6 +256,7 @@ h2
     background-image: url(//bbk12e1-cdn.myschoolcdn.com/ftpimages/709/site/1075/images/bg.png);
     display: block;
     color: white;
+    
 }
 
 
@@ -279,6 +272,9 @@ h2
 }
 
 
+.red {
+color: red;
+}
 
 /* End of carousel */
 
@@ -299,24 +295,53 @@ h2
     padding: 50px;
 }
 
+
+
 /* End of college */
 
 /* Start of Footer */
 
 #footer
 {
-    background-color: #10243B;
-    height: 100px;
-    
+
+    height: 300px;
 }
 
-#footer ul
+#footnav
 {
+    height: 50px;
+}
+
+#footnav ul
+{    
     list-style-type: none;
-    display: inline-block;
-    font-size: 16px;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     overflow: hidden;
+    background-color: #10243B;
+}
+
+#footnav li
+{
+    display: inline-block;
     color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding: 14px 20px 16px;
+}
+
+#footnote
+{
+
+    background-color: #333333;
+    height: 300px;
+    color: white;
+}
+
+#footnote p 
+{
+    position: relative;
+    top: 50%;
+    width: 1100px;
 }
